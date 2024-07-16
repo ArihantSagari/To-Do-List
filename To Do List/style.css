@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d;
+}
+
+.list-group-item {
+    border-color: #dee2e6;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.input-group-text {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+.card-body {
+    min-height: 400px; /* Adjust card body height as needed */
+    padding: 20px; /* Optional: Increase padding for better spacing */
+}
+
+.input-group {
+    width: 100%; /* Ensure the input group takes full width */
+}
+
+#taskInput {
+    height: 50px; /* Adjust height as needed */
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}
+/* Optional: Adjust form control width */
+.form-control {
+    width: 100%; /* Full width by default */
+}
+
+/* Adjust input group width for smaller screens */
+@media (max-width: 576px) {
+    .input-group {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+    .input-group .form-control {
+        width: 100%; /* Full width for each input on smaller screens */
+    }
+}
